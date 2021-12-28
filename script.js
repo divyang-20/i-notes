@@ -23,7 +23,7 @@ $(document).ready( function () {
       sno=e.target.id.substr(1,);
       
       if(confirm("Are you sure you want to delete this note?!")){
-        window.location=`/crudapp/index.php?delete=${sno}`;
+        window.location=`/index.php?delete=${sno}`;
       }
       else{
         console.log("No");
