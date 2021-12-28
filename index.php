@@ -4,10 +4,17 @@ $insert=false;
 $update=false;
 $delete=false;
 
-$servername="localhost";
-$username="root";
-$password="";
-$database="notes";
+// DEVELOPMENT CONNECTION
+// $servername="localhost";
+// $username="root";
+// $password="";
+// $database="notes";
+
+// REMOTE DATABASE CONNECTION
+$servername="remotemysql.com";
+$username="lQi8394ZMd";
+$password="RKk0rpZqZx";
+$database="lQi8394ZMd";
 
 //Create a connection
 $conn=mysqli_connect($servername,$username,$password,$database);
