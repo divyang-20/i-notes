@@ -82,7 +82,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
         <h5 class="modal-title" id="editModalLabel">Edit this Note</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <form action="/crudapp/index.php" method="post">
+      <form action="/index.php" method="post">
       <div class="modal-body">
         <input type="hidden" name="snoEdit" id="snoEdit">
           <div class="mb-3">
@@ -115,7 +115,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="/crudapp/logo.svg" height="30px" alt=""></a>
+        <a class="navbar-brand" href="#"><img src="/logo.svg" height="30px" alt=""></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -170,7 +170,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 
     <div class="container my-4">
       <h2>Add a Note</h2>
-      <form action="/crudapp/index.php" method="post">
+      <form action="/index.php" method="post">
         <div class="mb-3">
           <label for="title" class="form-label">Note Title</label>
           <input
